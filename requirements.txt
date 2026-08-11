@@ -1,0 +1,22 @@
+#all libraries needed for this project
+numpy
+pandas
+scikit-learn
+
+#for face recognization
+dlib-bin
+
+#for face structure/shape (we install this library using github)
+git+https://github.com/ageitgey/face_recognition_models.git
+setupTools<70.0.0      #uses when we using github libraries
+
+supabase   #provides databases 1-2  of gb in free
+bcrypt      #provides hashing methods
+
+segno       #generate qr code image by using url
+pillow      #helps in image preprocessing like resize, scaling, etc
+
+streamlit   #gives frontend 
+
+
+
