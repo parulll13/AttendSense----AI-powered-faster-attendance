@@ -3,7 +3,19 @@ import base64
 from pathlib import Path
 
 def header_home():
-    logo = Path(__file__).resolve().parents[2] / "assets" / "attendsense.png"
+
+    project_root = Path(__file__).resolve().parents[2]
+    assets_folder = project_root / "assets"
+    logo = assets_folder / "attendsense.png"
+
+    st.write("PROJECT ROOT:", project_root)
+    st.write("ASSETS EXISTS:", assets_folder.exists())
+    st.write("ASSETS FILES:", list(assets_folder.iterdir()) if assets_folder.exists() else "NO ASSETS FOLDER")
+    st.write("LOGO PATH:", logo)
+    st.write("LOGO EXISTS:", logo.exists())
+
+    
+    # logo = Path(__file__).resolve().parents[2] / "assets" / "attendsense.png"
     with open(logo, "rb") as f:
         logo = base64.b64encode(f.read()).decode()
 
@@ -16,7 +28,11 @@ def header_home():
 
 
 def header_dashboard():
-    logo = Path(__file__).resolve().parents[2] / "assets" / "attendsense.png"
+
+    project_root = Path(__file__).resolve().parents[2]
+    logo = project_root / "assets" / "attendsense.png"
+
+    # logo = Path(__file__).resolve().parents[2] / "assets" / "attendsense.png"
 
     with open(logo, "rb") as f:
         logo = base64.b64encode(f.read()).decode()
