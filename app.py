@@ -6,7 +6,7 @@ from src.components.dialog_auto_enroll import auto_enroll_dialog
 
 def main():
     st.set_page_config(
-        page_title= "Snapclass - Make attendance faster using AI",
+        page_title= "AttendSense - AI-powered attendance through face & voice recognition ",
         page_icon= "C:/Users/acer/Pictures/snapclass.jpg"
     )
     if 'login_type' not in st.session_state:
