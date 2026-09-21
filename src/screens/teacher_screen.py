@@ -86,7 +86,7 @@ def teacher_tab_take_attendance():
     subjects = get_teacher_subject(teacher_id)
 
     if not subjects:
-        st.error("You haven't created any subject. Please create ohe to begin")
+        st.error("You haven't created any subject. Please create one to begin")
         return
     
     #it's a dictonary -> key value pairs
