@@ -1,4 +1,5 @@
 #all libraries needed for this project
+streamlit   #gives frontend 
 numpy
 pandas
 scikit-learn
@@ -16,7 +17,8 @@ bcrypt      #provides hashing methods
 segno       #generate qr code image by using url
 pillow      #helps in image preprocessing like resize, scaling, etc
 
-streamlit   #gives frontend 
 
 
+librosa        #Used to load and process audio/voice recordings and extract useful audio features.
+resemblyzer    #Used to convert a person's voice into a voice embedding so you can compare/identify the speaker.
 

@@ -5,10 +5,10 @@ def style_background_home():
     st.markdown("""
         <style>
             .stApp{
-                Background: #0088cc !important;
+                Background: #EDD9ED !important;
                 }
             .stApp div[data-testid="stColumn"]{
-                background-color: white !important;
+                background-color: #EDD9ED !important;
                 border-radius: 3rem !important;
                 padding: 10px 10px 10px 10px;
 
@@ -65,7 +65,6 @@ def style_base_layout():
             line-height: 1.1 !important;
             margin-bottom: 0rem !important;
             margin-top: 0rem !important;
-            color: black !important
         }
 
         h2{
@@ -73,7 +72,6 @@ def style_base_layout():
             font-size: 2rem !important;
             line-height: 1.1 !important;
             margin-bottom: 0rem !important;
-            color: black !important
         }
 
         h3, h4, p{
@@ -82,7 +80,7 @@ def style_base_layout():
 
         button[kind ="primary"]{
             border-radius: 1.5rem !important;
-            background: #5865F2 !important;
+            background-color: #5865F2 !important;
             color: white !important;
             padding: 10px 20px !important;
             border: none !important;
@@ -91,7 +89,7 @@ def style_base_layout():
 
         button[kind ="secondary"]{
             border-radius: 1.5rem !important;
-            background: #EB459E !important;
+            background-color: #EB459E !important;
             color: white !important;
             padding: 10px 20px !important;
             border: none !important;
@@ -100,7 +98,7 @@ def style_base_layout():
 
         button[kind ="tertiary"]{
             border-radius: 1.5rem !important;
-            background: black !important;
+            background-color: black !important;
             color: white !important;
             padding: 10px 20px !important;
             border: none !important;
