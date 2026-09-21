@@ -7,7 +7,7 @@ from src.components.dialog_auto_enroll import auto_enroll_dialog
 def main():
     st.set_page_config(
         page_title= "AttendSense - AI-powered attendance through face & voice recognition ",
-        page_icon= "C:/Users/acer/Pictures/snapclass.jpg"
+        page_icon= "assets/attendsense.png"
     )
     if 'login_type' not in st.session_state:
         st.session_state['login_type'] = None

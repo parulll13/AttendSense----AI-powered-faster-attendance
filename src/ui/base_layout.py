@@ -5,10 +5,10 @@ def style_background_home():
     st.markdown("""
         <style>
             .stApp{
-                Background: #EDD9ED !important;
+                Background: white !important;
                 }
             .stApp div[data-testid="stColumn"]{
-                background-color: #EDD9ED !important;
+                background-color: white !important;
                 border-radius: 3rem !important;
                 padding: 10px 10px 10px 10px;
 
